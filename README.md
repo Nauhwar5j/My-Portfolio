@@ -41,35 +41,15 @@ cd backend
 npm install
 ```
 
-3. Configure environment variables:
-
-Create `.env` from the template:
-
-```bash
-copy .env.example .env
-```
-
-Update `.env` with your values (example):
-
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/portfolio
-NODE_ENV=development
-```
-
-4. (Optional) Seed the database:
+3. Seed & run the backend:
 
 ```bash
 npm run seed
-```
-
-5. Start the backend server:
-
-```bash
 npm run dev
 ```
 
 Backend runs at: `http://localhost:5000` (default).
+
 
 ---
 
